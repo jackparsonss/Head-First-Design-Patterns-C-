@@ -1,0 +1,30 @@
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/bin/Debug/net5.0/Head First Design Patterns.deps.json
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/bin/Debug/net5.0/Head First Design Patterns.runtimeconfig.json
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/bin/Debug/net5.0/Head First Design Patterns.runtimeconfig.dev.json
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/bin/Debug/net5.0/Head First Design Patterns.dll
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/bin/Debug/net5.0/ref/Head First Design Patterns.dll
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/bin/Debug/net5.0/Head First Design Patterns.pdb
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.csprojAssemblyReference.cache
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.AssemblyInfoInputs.cache
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.AssemblyInfo.cs
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.csproj.CoreCompileInputs.cache
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.dll
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/ref/Head First Design Patterns.dll
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.pdb
+/Users/jackparsons/Desktop/Personal/Books/Head First Design Patterns/Head First Design Patterns/Head First Design Patterns/obj/Debug/net5.0/Head First Design Patterns.genruntimeconfig.cache
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/bin/Debug/net5.0/Head First Design Patterns.deps.json
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/bin/Debug/net5.0/Head First Design Patterns.runtimeconfig.json
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/bin/Debug/net5.0/Head First Design Patterns.runtimeconfig.dev.json
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/bin/Debug/net5.0/Head First Design Patterns.dll
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/bin/Debug/net5.0/ref/Head First Design Patterns.dll
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/bin/Debug/net5.0/Head First Design Patterns.pdb
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.csprojAssemblyReference.cache
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.AssemblyInfoInputs.cache
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.AssemblyInfo.cs
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.csproj.CoreCompileInputs.cache
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.dll
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/ref/Head First Design Patterns.dll
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.pdb
+/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/obj/Debug/net5.0/Head First Design Patterns.genruntimeconfig.cache
