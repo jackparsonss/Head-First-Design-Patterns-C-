@@ -17,7 +17,7 @@ namespace Head_First_Design_Patterns.Chapter_3___Decorator_Pattern
             size = _size;
         }
 
-        public Size GetSize()
+        public virtual Size GetSize()
         {
             return size;
         }

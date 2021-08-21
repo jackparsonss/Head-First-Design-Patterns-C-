@@ -2,6 +2,8 @@
 using Head_First_Design_Patterns.Chapter_1___Intro;
 using Head_First_Design_Patterns.Chapter_2___Observer_Pattern;
 using Head_First_Design_Patterns.Chapter_3___Decorator_Pattern;
+using Head_First_Design_Patterns.Chapter_4___Factory_Pattern.Pizzas;
+using Head_First_Design_Patterns.Chapter_4___Factory_Pattern.Stores;
 
 namespace Head_First_Design_Patterns
 {
@@ -11,7 +13,8 @@ namespace Head_First_Design_Patterns
         {
             // Chapter1();
             // Chapter2();
-            Chapter3();
+            // Chapter3();
+            Chapter4();
         }
 
         private static void Chapter1()
@@ -56,6 +59,18 @@ namespace Head_First_Design_Patterns
             beverage3 = new Whip(beverage3);
             Console.WriteLine(beverage3.GetDescription() + " $" + beverage3.Cost());
 
+        }
+
+        private static void Chapter4()
+        {
+            PizzaStore nyStore = new NYStylePizzaStore();
+            PizzaStore chicagoStore = new ChicagoStylePizzaStore();
+
+            Pizza pizza = nyStore.OrderPizza("cheese");
+            Console.WriteLine($"Jim ordered a {pizza.GetName()} \n");
+
+            pizza = chicagoStore.OrderPizza("cheese");
+            Console.WriteLine($"Bob ordered a {pizza.GetName()} \n");
         }
     }
 }

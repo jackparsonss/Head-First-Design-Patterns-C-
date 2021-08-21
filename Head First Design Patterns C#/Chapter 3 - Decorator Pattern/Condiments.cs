@@ -6,7 +6,7 @@ namespace Head_First_Design_Patterns.Chapter_3___Decorator_Pattern
 
         public abstract string GetDescription();
 
-        public new Size GetSize()
+        public override Size GetSize()
         {
             return Beverage.GetSize();
         }
