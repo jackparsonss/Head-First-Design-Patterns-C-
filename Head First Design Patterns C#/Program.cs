@@ -4,6 +4,7 @@ using Head_First_Design_Patterns.Chapter_2___Observer_Pattern;
 using Head_First_Design_Patterns.Chapter_3___Decorator_Pattern;
 using Head_First_Design_Patterns.Chapter_4___Factory_Pattern.Pizzas;
 using Head_First_Design_Patterns.Chapter_4___Factory_Pattern.Stores;
+using Head_First_Design_Patterns.Chapter_5___Singleton_Pattern;
 
 namespace Head_First_Design_Patterns
 {
@@ -14,7 +15,8 @@ namespace Head_First_Design_Patterns
             // Chapter1();
             // Chapter2();
             // Chapter3();
-            Chapter4();
+            // Chapter4();
+            Chapter5();
         }
 
         private static void Chapter1()
@@ -33,7 +35,7 @@ namespace Head_First_Design_Patterns
         {
             var weatherData = new WeatherData();
             var currentDisplay = new CurrentConditionsDisplay(weatherData);
-            
+
             weatherData.SetMeasurements(24, 65, 30.4f);
             weatherData.SetMeasurements(21, 75, 31.4f);
             weatherData.SetMeasurements(27, 55, 29.4f);
@@ -51,7 +53,7 @@ namespace Head_First_Design_Patterns
             beverage2 = new Mocha(beverage2);
             beverage2 = new Whip(beverage2);
             Console.WriteLine(beverage2.GetDescription() + " $" + beverage2.Cost());
-            
+
             // Soy House Blend With Mocha and Whip
             Beverage beverage3 = new HouseBlend();
             beverage3 = new Soy(beverage3);
@@ -72,5 +74,17 @@ namespace Head_First_Design_Patterns
             pizza = chicagoStore.OrderPizza("cheese");
             Console.WriteLine($"Bob ordered a {pizza.GetName()} \n");
         }
+
+        private static void Chapter5()
+        {
+            ChocolateBoiler chocolateBoiler = ChocolateBoiler.GetInstance();
+            chocolateBoiler.Fill();
+            chocolateBoiler.Boil();
+            chocolateBoiler.Drain();
+            
+            // Returns the same instance
+            ChocolateBoiler chocolateBoiler2 = ChocolateBoiler.GetInstance();
+        }
     }
 }
+    
