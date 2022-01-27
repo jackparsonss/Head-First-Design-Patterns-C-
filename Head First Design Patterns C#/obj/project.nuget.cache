@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2HqRBPm9LN8tQKXtInaXxt/loG+4Cvp+tpQRPJwQCVVMofiCftA2qAtG4LaUzg37ILPhrM1iVskAAxfg6MVeNA==",
+  "dgSpecHash": "SJ5upREI6EYevCeNYcYmD4KxctbnVYX85CBOYsftldvte/lOS3/c6FMvW2dUHCeNj2fFi9LAxecMwePQXyq5YQ==",
   "success": true,
   "projectFilePath": "/Users/jackparsons/Storage/Repositories/Head First Design Patterns/Head First Design Patterns C#/Head First Design Patterns.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jackparsons/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.13/microsoft.netcore.app.host.osx-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

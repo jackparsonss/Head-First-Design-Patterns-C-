@@ -5,6 +5,8 @@ using Head_First_Design_Patterns.Chapter_3___Decorator_Pattern;
 using Head_First_Design_Patterns.Chapter_4___Factory_Pattern.Pizzas;
 using Head_First_Design_Patterns.Chapter_4___Factory_Pattern.Stores;
 using Head_First_Design_Patterns.Chapter_5___Singleton_Pattern;
+using Head_First_Design_Patterns.Chapter_6___Command_Pattern;
+using Head_First_Design_Patterns.Chapter_6___Command_Pattern.Devices;
 
 namespace Head_First_Design_Patterns
 {
@@ -16,7 +18,8 @@ namespace Head_First_Design_Patterns
             // Chapter2();
             // Chapter3();
             // Chapter4();
-            Chapter5();
+            // Chapter5();
+            Chapter6();
         }
 
         private static void Chapter1()
@@ -84,6 +87,21 @@ namespace Head_First_Design_Patterns
             
             // Returns the same instance
             ChocolateBoiler chocolateBoiler2 = ChocolateBoiler.GetInstance();
+        }
+        
+        private static void Chapter6()
+        {
+            var remote = new SimpleRemoteControl();
+            var light = new Light();
+            var lightOn = new LightOnCommand(light);
+            var garageDoor = new GarageDoor();
+            var garageDoorOpen = new GarageDoorOpenCommand(garageDoor);
+            
+            remote.SetCommand(lightOn);
+            remote.ButtonWasPressed();
+            remote.SetCommand(garageDoorOpen);
+            remote.ButtonWasPressed();
+            
         }
     }
 }
